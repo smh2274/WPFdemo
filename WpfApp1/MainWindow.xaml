@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:WpfApp1"
         xmlns:Properties="clr-namespace:WpfApp1.Properties" xmlns:System="clr-namespace:System;assembly=mscorlib" x:Name="款单打印" x:Class="WpfApp1.MainWindow"
         mc:Ignorable="d"
-        Title="款单打印" Height="441" Width="692">
+        Title="xxxx" Height="441" Width="692">
     <Window.Resources>
         <Style x:Key="GridStyle1" TargetType="{x:Type Grid}"/>
     </Window.Resources>
-    <Grid Name="hello" HorizontalAlignment="Left" Height="410" VerticalAlignment="Top" Width="682">
+    <Grid Name="helloworld" HorizontalAlignment="Left" Height="410" VerticalAlignment="Top" Width="682">
         <Grid.Background>
             <LinearGradientBrush>
                 <GradientStop Offset="0.00" Color="Red"></GradientStop>
