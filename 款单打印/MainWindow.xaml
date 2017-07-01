@@ -1,0 +1,21 @@
+﻿<Window x:Class="款单打印.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:款单打印"
+        mc:Ignorable="d"
+        Title="款单打印" Height="350" Width="620">
+    <Grid>
+        <DataGrid  VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,10" Width="560" Height="250" BorderBrush="#FFDAE3EC">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="    交款单位" Width="90" Binding="{Binding}"></DataGridTextColumn>
+                <DataGridTextColumn Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Header="          券别" Width="100"></DataGridTextColumn>
+                <DataGridTextColumn Header="                    金额                     "></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="打印" HorizontalAlignment="Left" Margin="510,281,0,0" VerticalAlignment="Top" Width="76" Height="26"/>
+
+    </Grid>
+</Window>
