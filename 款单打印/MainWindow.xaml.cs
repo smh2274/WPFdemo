@@ -29,21 +29,21 @@ namespace 款单打印
             {
                 danwei = danweiOpt.中国银行,
                 kong=null,
-                quanbie = "hhh",
+                
                 jine=100000
             });
             data.Add(new Member()
             {
                 danwei = danweiOpt.农业银行,
                 kong = null,
-                quanbie = "hhh",
+                
                 jine = 10044
             });
             data.Add(new Member()
             {
                 danwei = danweiOpt.中国银行,
                 kong = null,
-                quanbie = "hhh",
+                
                 jine = 10130
             });
             dataGrid.DataContext = data;
@@ -59,12 +59,13 @@ namespace 款单打印
 
     }
     public enum danweiOpt { 中国银行, 建设银行, 工商银行, 农业银行 };
+    public enum quanbieOpt { a,b,c,d};
 
     public class Member
     {
         public danweiOpt danwei { get; set; }
         public String kong { get; set; }
-        public String quanbie { get; set; }
+        public quanbieOpt quanbie { get; set; }
         public long jine { get; set; }
     }
 
