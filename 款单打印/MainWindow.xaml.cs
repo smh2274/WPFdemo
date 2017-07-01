@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Collections.ObjectModel;
-using System.Windows.Shapes;
+
 
 namespace 款单打印
 {
@@ -53,6 +53,10 @@ namespace 款单打印
         {
 
         }
+
+
+        
+
     }
     public enum danweiOpt { 中国银行, 建设银行, 工商银行, 农业银行 };
 
@@ -63,4 +67,7 @@ namespace 款单打印
         public String quanbie { get; set; }
         public long jine { get; set; }
     }
+
+
+
 }
