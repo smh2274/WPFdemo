@@ -4,18 +4,29 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:款单打印"
+        xmlns:assembly="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="款单打印" Height="350" Width="620">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="danweiEnum" MethodName="GetValues" ObjectType="{x:Type assembly:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="local:danweiOpt"/>
+            </ObjectDataProvider.MethodParameters>
+            
+        </ObjectDataProvider>
+    </Window.Resources>
     <Grid>
-        <DataGrid  VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,10" Width="560" Height="250" BorderBrush="#FFDAE3EC">
+        <DataGrid x:Name="dataGrid" VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,10" Width="560" Height="250" BorderBrush="#FF111111" Background="White">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="    交款单位" Width="90" Binding="{Binding}"></DataGridTextColumn>
-                <DataGridTextColumn Width="200"></DataGridTextColumn>
-                <DataGridTextColumn Header="          券别" Width="100"></DataGridTextColumn>
-                <DataGridTextColumn Header="                    金额                     "></DataGridTextColumn>
+                <DataGridComboBoxColumn Header="    交款单位" Width="90" SelectedItemBinding="{Binding danwei}" ItemsSource="{Binding Source={StaticResource danweiEnum}}"></DataGridComboBoxColumn>
+                <DataGridTextColumn Width="200" Binding="{Binding kong}"></DataGridTextColumn>
+                <DataGridTextColumn Header="          券别" Width="100" Binding="{Binding quanbie}"></DataGridTextColumn>
+                <DataGridTextColumn Header="                    金额                     " Binding="{Binding jine}"></DataGridTextColumn>
             </DataGrid.Columns>
+            
         </DataGrid>
-        <Button Content="打印" HorizontalAlignment="Left" Margin="510,281,0,0" VerticalAlignment="Top" Width="76" Height="26"/>
+        <Button Content="打印" HorizontalAlignment="Left" Margin="510,276,0,0" VerticalAlignment="Top" Width="76" Height="24"/>
+
 
     </Grid>
 </Window>

@@ -10,7 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
+using System.Collections.ObjectModel;
 using System.Windows.Shapes;
 
 namespace 款单打印
@@ -23,6 +23,27 @@ namespace 款单打印
         public MainWindow()
         {
             InitializeComponent();
+
+            ObservableCollection<Member> data = new ObservableCollection<Member>();
+            data.Add(new Member()
+            {
+                danwei = danweiOpt.中国银行,
+                kong=null,
+                quanbie = "hhh",
+                jine=100000
+            });
+            dataGrid.DataContext = data;
         }
+
+     
+    }
+    public enum danweiOpt { 中国银行, 建设银行, 工商银行, 农业银行 };
+
+    public class Member
+    {
+        public danweiOpt danwei { get; set; }
+        public String kong { get; set; }
+        public String quanbie { get; set; }
+        public long jine { get; set; }
     }
 }
