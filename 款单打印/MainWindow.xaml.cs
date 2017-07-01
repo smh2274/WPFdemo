@@ -54,9 +54,7 @@ namespace 款单打印
 
         }
 
-
         
-
     }
     public enum danweiOpt { 中国银行, 建设银行, 工商银行, 农业银行 };
     public enum quanbieOpt { a,b,c,d};
