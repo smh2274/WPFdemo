@@ -32,10 +32,27 @@ namespace 款单打印
                 quanbie = "hhh",
                 jine=100000
             });
+            data.Add(new Member()
+            {
+                danwei = danweiOpt.农业银行,
+                kong = null,
+                quanbie = "hhh",
+                jine = 10044
+            });
+            data.Add(new Member()
+            {
+                danwei = danweiOpt.中国银行,
+                kong = null,
+                quanbie = "hhh",
+                jine = 10130
+            });
             dataGrid.DataContext = data;
         }
 
-     
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
     public enum danweiOpt { 中国银行, 建设银行, 工商银行, 农业银行 };
 

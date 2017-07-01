@@ -12,20 +12,20 @@
             <ObjectDataProvider.MethodParameters>
                 <x:Type Type="local:danweiOpt"/>
             </ObjectDataProvider.MethodParameters>
-            
+
         </ObjectDataProvider>
     </Window.Resources>
-    <Grid>
-        <DataGrid x:Name="dataGrid" VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,10" Width="560" Height="250" BorderBrush="#FF111111" Background="White">
+    <Grid ShowGridLines="True">
+        <DataGrid x:Name="dataGrid" ItemsSource="{Binding}" AutoGenerateColumns="False"  VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="0,10" Width="560" Height="250" BorderBrush="#FF111111" Background="White">
             <DataGrid.Columns>
                 <DataGridComboBoxColumn Header="    交款单位" Width="90" SelectedItemBinding="{Binding danwei}" ItemsSource="{Binding Source={StaticResource danweiEnum}}"></DataGridComboBoxColumn>
-                <DataGridTextColumn Width="200" Binding="{Binding kong}"></DataGridTextColumn>
+                <DataGridTextColumn Width="200" Binding="{Binding kong}" ></DataGridTextColumn>
                 <DataGridTextColumn Header="          券别" Width="100" Binding="{Binding quanbie}"></DataGridTextColumn>
                 <DataGridTextColumn Header="                    金额                     " Binding="{Binding jine}"></DataGridTextColumn>
             </DataGrid.Columns>
-            
+
         </DataGrid>
-        <Button Content="打印" HorizontalAlignment="Left" Margin="510,276,0,0" VerticalAlignment="Top" Width="76" Height="24"/>
+        <Button Content="打印" HorizontalAlignment="Left" Margin="510,276,0,0" VerticalAlignment="Top" Width="76" Height="24" Click="Button_Click"/>
 
 
     </Grid>
