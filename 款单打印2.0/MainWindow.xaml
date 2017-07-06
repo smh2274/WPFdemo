@@ -17,9 +17,9 @@
     <Grid>
         <Grid Name="gridsummary" VerticalAlignment="Center" Height="336" Width="550"  OpacityMask="Black" Margin="92,33,90,167">
 
-            <ComboBox Name="combo1" BorderBrush="{x:Null}" Background="White"    Initialized="combo1_Initialized" DropDownOpened="drop_danwei" FontSize="13" Height="21" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="225" IsEditable="True" Grid.Row="3" Grid.ColumnSpan="2" Margin="82,0,0,1" Foreground="#FFC90000"/>
+            <ComboBox Name="combo1" BorderBrush="{x:Null}" Background="White"    Initialized="combo1_Initialized" DropDownOpened="drop_danwei" FontSize="13" Height="21" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="248" IsEditable="True" Grid.Row="3" Grid.ColumnSpan="2" Margin="59,0,0,1" Foreground="#FFC90000"/>
 
-            <TextBox  Name="money1" Grid.Column="3" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap"  VerticalAlignment="Top" Width="131" BorderBrush="{x:Null}" FontSize="14" SelectionBrush="{x:Null}" Grid.Row="4" Margin="1,0,0,0" Grid.RowSpan="2"/>
+            <TextBox  Name="money1" Grid.Column="3" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" BorderBrush="{x:Null}" FontSize="14" SelectionBrush="{x:Null}" Grid.Row="4" Grid.RowSpan="2"/>
             <TextBox Name="money2" Grid.Column="3" HorizontalAlignment="Left" Height="21" Grid.Row="5" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" BorderBrush="{x:Null}" FontSize="14" SelectionBrush="{x:Null}" Margin="0,1,0,0" Grid.RowSpan="2"/>
             <TextBox Name="money3" Grid.Column="3" HorizontalAlignment="Left" Height="20" Grid.Row="6" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" BorderBrush="{x:Null}" FontSize="14" SelectionBrush="{x:Null}" Margin="0,1,0,0"/>
             <TextBox Name="money4" Grid.Column="3" HorizontalAlignment="Left" Height="21" Grid.Row="7" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" BorderBrush="{x:Null}" FontSize="14" SelectionBrush="{x:Null}"/>
@@ -31,7 +31,7 @@
 
 
             <TextBox Name="zongji" GotFocus="Addmoney" Grid.Column="3" HorizontalAlignment="Right" Height="21" Grid.Row="13" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115" BorderBrush="{x:Null}" FontSize="14" SelectionBrush="{x:Null}"/>
-            <TextBox Name="daxie" GotFocus="Daxiemoney" Grid.Column="1" HorizontalAlignment="Left" Height="18" Grid.Row="14" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="379" BorderBrush="{x:Null}" FontSize="12" SelectionBrush="{x:Null}" Grid.ColumnSpan="3" Margin="0,2,0,0"/>
+            <TextBox Name="daxie" GotFocus="Daxiemoney" Grid.Column="1" HorizontalAlignment="Left" Height="20" Grid.Row="14" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="379" BorderBrush="{x:Null}" FontSize="12" SelectionBrush="{x:Null}" Grid.ColumnSpan="3"/>
 
 
             <TextBlock Grid.Column="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="券  别" FontSize="13" FontFamily="宋体" VerticalAlignment="Top" Width="50" Height="17" Grid.Row="3" Margin="31,4,13,0"/>
@@ -56,6 +56,10 @@
             <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="3" VerticalAlignment="Top" Width="94" Grid.Column="2"/>
             <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="3" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
             <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="207" Grid.Row="3" Grid.RowSpan="11" VerticalAlignment="Top" Width="307" Grid.ColumnSpan="2" Margin="0,21,0,0"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="20" Grid.Row="14" VerticalAlignment="Top" Width="154"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="20" Grid.Row="14" VerticalAlignment="Top" Width="379" Grid.ColumnSpan="3" Grid.Column="1"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="13" VerticalAlignment="Top" Width="94" Grid.Column="2"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="13" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
 
 
 
