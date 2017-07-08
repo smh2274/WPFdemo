@@ -60,6 +60,15 @@
             <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="20" Grid.Row="14" VerticalAlignment="Top" Width="379" Grid.ColumnSpan="3" Grid.Column="1"/>
             <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="13" VerticalAlignment="Top" Width="94" Grid.Column="2"/>
             <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="13" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="20" Grid.Row="12" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="11" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="9" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="20" Grid.Row="10" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="20" Grid.Row="8" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="7" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="6" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="5" VerticalAlignment="Top" Width="132" Grid.Column="3"/>
+            <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" Height="21" Grid.Row="3" VerticalAlignment="Top" Width="132" Grid.Column="3" Margin="0,21,0,0" Grid.RowSpan="2"/>
 
 
 
