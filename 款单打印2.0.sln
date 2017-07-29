@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "款单打印2.0", "款单打印2.0\款单打印2.0.csproj", "{55DEC0E0-D0F2-4169-A0D0-8E82D00D7EE6}"
 EndProject
