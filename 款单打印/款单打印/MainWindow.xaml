@@ -8,7 +8,29 @@
         Title="现金交款单" Height="555.264" Width="686">
     <Grid>
         <Grid Name="GridSummary" HorizontalAlignment="Left" Height="266" Margin="57,94,0,0" VerticalAlignment="Top" Width="557">
+            <ComboBox  Name="comboBox" HorizontalAlignment="Left" Margin="85,0,0,0" VerticalAlignment="Top" Width="179" Height="23" BorderBrush="{x:Null}" Background="White" Initialized="comboBox_Initialized" FontSize="7" />
+            <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="263,22,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Initialized="quanbie_Initialized" FontSize="10" Height="22"/>
+            <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="263,43,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}"  Initialized="quanbie2_Initialized" FontSize="10" Height="23"/>
+            <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="263,65,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}"  Initialized="quanbie3_Initialized" FontSize="10" Height="23"/>
+            <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="263,87,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}"  Initialized="quanbie4_Initialized" FontSize="10" Height="23"/>
+            <ComboBox x:Name="comboBox5" HorizontalAlignment="Left" Margin="263,109,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}"  Initialized="quanbie5_Initialized" FontSize="10" Height="23"/>
+            <ComboBox x:Name="comboBox6" HorizontalAlignment="Left" Margin="263,131,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}"  Initialized="quanbie6_Initialized" FontSize="10" Height="23"/>
+            <ComboBox x:Name="comboBox7" HorizontalAlignment="Left" Margin="263,153,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Initialized="quanbie7_Initialized" FontSize="10" Height="23"/>
+            <ComboBox x:Name="comboBox8" HorizontalAlignment="Left" Margin="263,175,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Initialized="quanbie8_Initialized" FontSize="10" Height="23"/>
+            <ComboBox x:Name="comboBox9" HorizontalAlignment="Left" Margin="263,197,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Initialized="quanbie9_Initialized" FontSize="10" Height="24"/>
 
+            <TextBox x:Name="money1" HorizontalAlignment="Left" Height="22" Margin="362,22,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money2" HorizontalAlignment="Left" Height="22" Margin="362,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money3" HorizontalAlignment="Left" Height="22" Margin="362,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money4" HorizontalAlignment="Left" Height="22" Margin="362,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money5" HorizontalAlignment="Left" Height="22" Margin="362,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money6" HorizontalAlignment="Left" Height="22" Margin="362,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money7" HorizontalAlignment="Left" Height="22" Margin="362,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money8" HorizontalAlignment="Left" Height="22" Margin="362,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money9" HorizontalAlignment="Left" Height="23" Margin="362,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="zongji" HorizontalAlignment="Left" Height="22" Margin="376,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" GotFocus="Addmoney"/>
+            <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="367,223,0,0" TextWrapping="Wrap" Text="￥" VerticalAlignment="Top" Width="12" Height="13"/>
+            <TextBox x:Name="daxie" HorizontalAlignment="Left" Height="23" Margin="132,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" GotFocus="Daxiemoney"/>
 
         </Grid>
         <Grid HorizontalAlignment="Left" Height="266" Margin="57,94,0,0" VerticalAlignment="Top" Width="557">
@@ -69,19 +91,22 @@
             <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="14,9,0,0" Grid.Row="1" Grid.RowSpan="2" TextWrapping="Wrap" Text="上款已如数交存" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="147"/>
             <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="15,21,0,0" Grid.Row="9" TextWrapping="Wrap" Text="现金收讫章及管库员章" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="129" Grid.RowSpan="2"/>
             <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="24,3,0,0" Grid.Row="11" TextWrapping="Wrap" Text="人民币（大写）" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="87"/>
+            <TextBlock x:Name="textBlock6" Grid.Column="3" HorizontalAlignment="Left" Margin="30,4,0,0" Grid.Row="10" TextWrapping="Wrap" Text="合     计" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock7" Grid.Column="3" HorizontalAlignment="Left" Margin="30,4,0,0" TextWrapping="Wrap" Text="券    别" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock8" Grid.Column="4" HorizontalAlignment="Left" Margin="68,4,0,0" TextWrapping="Wrap" Text="金           额" VerticalAlignment="Top"/>
 
 
         </Grid>
         <Grid>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="52,406,0,0" TextWrapping="Wrap" Text="摘要：" FontSize="16" VerticalAlignment="Top"/>
             <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="100,406,0,0" TextWrapping="Wrap" Text=""  VerticalAlignment="Top" Width="195"/>
-            <Button x:Name="button" Content="添加" HorizontalAlignment="Left" Margin="321,407,0,0" VerticalAlignment="Top" Width="76"/>
-            <Button x:Name="button1" Content="删除" HorizontalAlignment="Left" Margin="419,407,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="button" Content="添加" HorizontalAlignment="Left" Margin="321,407,0,0" VerticalAlignment="Top" Width="76" Click="AddZhaiyao_Click"/>
+            <Button x:Name="button1" Content="删除" HorizontalAlignment="Left" Margin="419,407,0,0" VerticalAlignment="Top" Width="75" Click="DeleteZhaiyao_Click"/>
 
             <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="52,465,0,0" TextWrapping="Wrap" Text="券别：" FontSize="16" VerticalAlignment="Top"/>
             <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="100,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195"/>
-            <Button x:Name="button2" Content="添加" HorizontalAlignment="Left" Margin="322,466,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="button3" Content="删除" HorizontalAlignment="Left" Margin="419,466,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="button2" Content="添加" HorizontalAlignment="Left" Margin="322,466,0,0" VerticalAlignment="Top" Width="75" Click="AddQuanbie_Click"/>
+            <Button x:Name="button3" Content="删除" HorizontalAlignment="Left" Margin="419,466,0,0" VerticalAlignment="Top" Width="75" Click="DeleteQuanbie_Click"/>
             <Button x:Name="button4" Content="打印" HorizontalAlignment="Left" Margin="559,413,0,0" VerticalAlignment="Top" Width="52" Height="61" Click="Print_Click"/>
 
 
