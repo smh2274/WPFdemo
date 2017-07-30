@@ -15,7 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_141599DF26F94B51977C406EC097E5DA"
+        "MsmKey" = "8:_037E8F858C814B938FDE4B28B3ED9DB9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -27,14 +33,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E875276285794071AEAA245368546076"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_141599DF26F94B51977C406EC097E5DA"
+        "OwnerKey" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -94,6 +94,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -124,14 +132,34 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_141599DF26F94B51977C406EC097E5DA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_037E8F858C814B938FDE4B28B3ED9DB9"
+            {
+            "SourcePath" = "8:..\\..\\..\\款单打印\\款单打印\\bin\\Debug\\Database.mdb"
+            "TargetName" = "8:Database.mdb"
+            "Tag" = "8:"
+            "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:款单打印, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_141599DF26F94B51977C406EC097E5DA"
+                    "_B2BCA4D3CF2247ABB301ABAE15BFFD30"
                     {
                     "Name" = "8:款单打印.exe"
                     "Attributes" = "3:512"
@@ -159,26 +187,6 @@
             {
             "SourcePath" = "8:E:\\Images\\printer_128px_1206798_easyicon.net.ico"
             "TargetName" = "8:printer_128px_1206798_easyicon.net.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E875276285794071AEAA245368546076"
-            {
-            "SourcePath" = "8:..\\..\\..\\款单打印\\款单打印\\bin\\Debug\\Database.mdb"
-            "TargetName" = "8:Database.mdb"
             "Tag" = "8:"
             "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Condition" = "8:"
@@ -252,7 +260,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup1"
         "ProductCode" = "8:{789D9B31-2AE9-4058-B53E-E42C81194318}"
-        "PackageCode" = "8:{A43A4E0E-3041-4EB9-AB27-4668C1AEAA75}"
+        "PackageCode" = "8:{333ED7C3-33F5-4B9D-97AB-9C4620F40375}"
         "UpgradeCode" = "8:{6F4C7993-A4C5-456B-BC61-3658719D40F8}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -372,15 +380,29 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7172E1348452451AA0C98AE733D03EE5"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_73C39C24936D46DEA5CD8796747B658F"
             {
-            "Name" = "8:Print"
+            "Name" = "8:Print.exe"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_141599DF26F94B51977C406EC097E5DA"
+            "Target" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
+            "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
+            "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
+            "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7BDF81956B7741B0A5AEC4C088E8D172"
+            {
+            "Name" = "8:Print.exe"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
             "Folder" = "8:_352969086D4B4DA5A00B308BF293C7FC"
             "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"

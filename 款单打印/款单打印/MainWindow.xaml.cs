@@ -15,6 +15,9 @@ using System.Windows.Shapes;
 using System.Data;
 using System.Data.OleDb;
 using System.Data.SqlClient;
+using System.Collections;
+using System.ComponentModel;
+using System.Drawing;
 
 namespace 款单打印
 {
@@ -31,13 +34,63 @@ namespace 款单打印
         //打印功能
         private void Print_Click(object sender, RoutedEventArgs e)
         {
+            this.comboBox.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox1.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox2.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox3.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox4.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox5.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox6.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox7.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox8.Visibility = System.Windows.Visibility.Hidden;
+            this.comboBox9.Visibility = System.Windows.Visibility.Hidden;
             PrintDialog print = new PrintDialog();
             if (print.ShowDialog() == true)
             {
                 print.PrintVisual(GridSummary, "款单打印");
             }
         }
-
+        //
+        private void getSummary(object sender, EventArgs e)
+        {
+            textBox2.Text = this.comboBox.Text;
+        }
+        private void get1(object sender, EventArgs e)
+        {
+            textmoney1.Text = this.comboBox1.Text;
+        }
+        private void get2(object sender, EventArgs e)
+        {
+            textmoney2.Text = this.comboBox2.Text;
+        }
+        private void get3(object sender, EventArgs e)
+        {
+            textmoney3.Text = this.comboBox3.Text;
+        }
+        private void get4(object sender, EventArgs e)
+        {
+            textmoney4.Text = this.comboBox4.Text;
+        }
+        private void get5(object sender, EventArgs e)
+        {
+            textmoney5.Text = this.comboBox5.Text;
+        }
+        private void get6(object sender, EventArgs e)
+        {
+            textmoney6.Text = this.comboBox6.Text;
+        }
+        private void get7(object sender, EventArgs e)
+        {
+            textmoney7.Text = this.comboBox7.Text;
+        }
+        private void get8(object sender, EventArgs e)
+        {
+            textmoney8.Text = this.comboBox8.Text;
+        }
+        private void get9(object sender, EventArgs e)
+        {
+            textmoney9.Text = this.comboBox9.Text;
+        }
         //数据库连接
         private static OleDbConnection getConnect()
         {
@@ -292,7 +345,7 @@ namespace 款单打印
         //初始化摘要
         private void comboBox_Initialized(object sender, EventArgs e)
         {
-
+    
             DataSet set = new DataSet();
             OleDbConnection conn = getConnect();
             conn.Open();
@@ -474,7 +527,11 @@ namespace 款单打印
         //大写转换
         private void Daxiemoney(object sender, RoutedEventArgs e)
         {
-            this.daxie.Text = new MoneyConvertChinese().MoneyToChinese(this.zongji.Text);
+           // this.daxie.Text = new MoneyConvertChinese().MoneyToChinese(this.zongji.Text);
+           StringBuilder str= new StringBuilder(new MoneyConvertChinese().MoneyToChinese(this.zongji.Text)); 
+           str.Replace("零元", "元");
+            this.daxie.Text = str.ToString();
+            
         }
 
         public class MoneyConvertChinese
