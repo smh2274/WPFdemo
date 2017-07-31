@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_5871809D482D47219CA828749EDC1705"
+        "MsmKey" = "8:_85086CFF88B546388421E2DC101FF52E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5871809D482D47219CA828749EDC1705"
+        "OwnerKey" = "8:_85086CFF88B546388421E2DC101FF52E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -132,14 +132,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5871809D482D47219CA828749EDC1705"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_85086CFF88B546388421E2DC101FF52E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:款单打印, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5871809D482D47219CA828749EDC1705"
+                    "_85086CFF88B546388421E2DC101FF52E"
                     {
                     "Name" = "8:款单打印.exe"
                     "Attributes" = "3:512"
@@ -380,7 +380,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5FD28F01F11E44E2AED526F8A5827571"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_077E49993E674456A033CEB6B527D733"
             {
             "Name" = "8:Print.exe"
             "Arguments" = "8:"
@@ -388,13 +388,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_5871809D482D47219CA828749EDC1705"
-            "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
+            "Target" = "8:_85086CFF88B546388421E2DC101FF52E"
+            "Folder" = "8:_352969086D4B4DA5A00B308BF293C7FC"
             "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6DE672623BB444BA8404A9CECE3E3814"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F0FCCC9777E248DA86A64EB1F43D0A01"
             {
             "Name" = "8:Print.exe"
             "Arguments" = "8:"
@@ -402,8 +402,8 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_5871809D482D47219CA828749EDC1705"
-            "Folder" = "8:_352969086D4B4DA5A00B308BF293C7FC"
+            "Target" = "8:_85086CFF88B546388421E2DC101FF52E"
+            "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"
             "Feature" = "8:"
