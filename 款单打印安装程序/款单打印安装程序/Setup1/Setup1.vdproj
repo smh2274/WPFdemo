@@ -15,13 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_037E8F858C814B938FDE4B28B3ED9DB9"
+        "MsmKey" = "8:_5871809D482D47219CA828749EDC1705"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
+        "MsmKey" = "8:_CD0C0ED174F649F3934C0B23690F095B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
+        "OwnerKey" = "8:_5871809D482D47219CA828749EDC1705"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -132,10 +132,21 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_037E8F858C814B938FDE4B28B3ED9DB9"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5871809D482D47219CA828749EDC1705"
             {
-            "SourcePath" = "8:..\\..\\..\\款单打印\\款单打印\\bin\\Debug\\Database.mdb"
-            "TargetName" = "8:Database.mdb"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:款单打印, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_5871809D482D47219CA828749EDC1705"
+                    {
+                    "Name" = "8:款单打印.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\..\\..\\款单打印\\款单打印\\bin\\Debug\\款单打印.exe"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Condition" = "8:"
@@ -152,21 +163,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD0C0ED174F649F3934C0B23690F095B"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:款单打印, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_B2BCA4D3CF2247ABB301ABAE15BFFD30"
-                    {
-                    "Name" = "8:款单打印.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\..\\..\\款单打印\\款单打印\\bin\\Debug\\款单打印.exe"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\..\\..\\款单打印\\款单打印\\bin\\Debug\\Database.mdb"
+            "TargetName" = "8:Database.mdb"
             "Tag" = "8:"
             "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Condition" = "8:"
@@ -380,7 +380,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_73C39C24936D46DEA5CD8796747B658F"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5FD28F01F11E44E2AED526F8A5827571"
             {
             "Name" = "8:Print.exe"
             "Arguments" = "8:"
@@ -388,13 +388,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
+            "Target" = "8:_5871809D482D47219CA828749EDC1705"
             "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7BDF81956B7741B0A5AEC4C088E8D172"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6DE672623BB444BA8404A9CECE3E3814"
             {
             "Name" = "8:Print.exe"
             "Arguments" = "8:"
@@ -402,7 +402,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_B2BCA4D3CF2247ABB301ABAE15BFFD30"
+            "Target" = "8:_5871809D482D47219CA828749EDC1705"
             "Folder" = "8:_352969086D4B4DA5A00B308BF293C7FC"
             "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"
