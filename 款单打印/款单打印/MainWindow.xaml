@@ -7,123 +7,123 @@
         mc:Ignorable="d"
         Title="现金交款单" Height="800" Width="1030">
     <Grid>
-        <Grid Name="GridSummary" HorizontalAlignment="Left" Height="400" Margin="86,136,0,0" VerticalAlignment="Top" Width="836">
-            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="33" Margin="147,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="12"/>
-            <ComboBox  Name="comboBox" HorizontalAlignment="Left" Margin="427,0,0,0" VerticalAlignment="Top" Width="20" Height="33" BorderBrush="{x:Null}" Background="White" Initialized="comboBox_Initialized" DropDownClosed="getSummary"/>
+        <Grid Name="GridSummary" HorizontalAlignment="Left" Height="372" Margin="83,136,0,0" VerticalAlignment="Top" Width="786">
+            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="31" Margin="116,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="12"/>
+            <ComboBox  Name="comboBox" HorizontalAlignment="Left" Margin="352,0,0,0" VerticalAlignment="Top" Width="20" Height="32" BorderBrush="{x:Null}" Background="White" Initialized="comboBox_Initialized" DropDownClosed="getSummary"/>
 
-            <TextBox x:Name="textmoney1" HorizontalAlignment="Left" Height="33" Margin="447,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="602,33,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie_Initialized"  Height="35" DropDownClosed="get1"/>
+            <TextBox x:Name="textmoney1" HorizontalAlignment="Left" Height="29" Margin="372,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="496,31,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie_Initialized"  Height="31" DropDownClosed="get1"/>
 
-            <TextBox x:Name="textmoney2" HorizontalAlignment="Left" Height="35" Margin="447,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="602,66,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie2_Initialized"  Height="35" DropDownClosed="get2"/>
+            <TextBox x:Name="textmoney2" HorizontalAlignment="Left" Height="30" Margin="372,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="496,61,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie2_Initialized"  Height="32" DropDownClosed="get2"/>
 
-            <TextBox x:Name="textmoney3" HorizontalAlignment="Left" Height="31" Margin="447,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="602,100,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie3_Initialized"  Height="33" DropDownClosed="get3"/>
+            <TextBox x:Name="textmoney3" HorizontalAlignment="Left" Height="31" Margin="372,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="496,92,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie3_Initialized"  Height="32" DropDownClosed="get3"/>
 
-            <TextBox x:Name="textmoney4" HorizontalAlignment="Left" Height="34" Margin="447,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="602,132,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie4_Initialized"  Height="35" DropDownClosed="get4"/>
+            <TextBox x:Name="textmoney4" HorizontalAlignment="Left" Height="31" Margin="372,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="496,123,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie4_Initialized"  Height="32" DropDownClosed="get4"/>
 
-            <TextBox x:Name="textmoney5" HorizontalAlignment="Left" Height="35" Margin="447,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox5" HorizontalAlignment="Left" Margin="602,166,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie5_Initialized" Height="35" DropDownClosed="get5"/>
+            <TextBox x:Name="textmoney5" HorizontalAlignment="Left" Height="31" Margin="372,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox5" HorizontalAlignment="Left" Margin="496,154,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie5_Initialized" Height="32" DropDownClosed="get5"/>
 
-            <TextBox x:Name="textmoney6" HorizontalAlignment="Left" Height="33" Margin="447,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox6" HorizontalAlignment="Left" Margin="602,200,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie6_Initialized" Height="34" DropDownClosed="get6"/>
+            <TextBox x:Name="textmoney6" HorizontalAlignment="Left" Height="30" Margin="372,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox6" HorizontalAlignment="Left" Margin="496,185,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}"  Initialized="quanbie6_Initialized" Height="32" DropDownClosed="get6"/>
 
-            <TextBox x:Name="textmoney7" HorizontalAlignment="Left" Height="34" Margin="447,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox7" HorizontalAlignment="Left" Margin="602,233,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie7_Initialized" Height="35" DropDownClosed="get7"/>
+            <TextBox x:Name="textmoney7" HorizontalAlignment="Left" Height="32" Margin="372,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox7" HorizontalAlignment="Left" Margin="496,216,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie7_Initialized" Height="32" DropDownClosed="get7"/>
 
-            <TextBox x:Name="textmoney8" HorizontalAlignment="Left" Height="32" Margin="447,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox8" HorizontalAlignment="Left" Margin="602,267,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie8_Initialized" Height="34" DropDownClosed="get8"/>
+            <TextBox x:Name="textmoney8" HorizontalAlignment="Left" Height="31" Margin="372,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox8" HorizontalAlignment="Left" Margin="496,247,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie8_Initialized" Height="32" DropDownClosed="get8"/>
 
-            <TextBox x:Name="textmoney9" HorizontalAlignment="Left" Height="33" Margin="447,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <ComboBox x:Name="comboBox9" HorizontalAlignment="Left" Margin="602,300,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie9_Initialized" Height="34" DropDownClosed="get9"/>
+            <TextBox x:Name="textmoney9" HorizontalAlignment="Left" Height="30" Margin="372,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <ComboBox x:Name="comboBox9" HorizontalAlignment="Left" Margin="496,278,0,0" VerticalAlignment="Top" Width="14" BorderBrush="{x:Null}" Initialized="quanbie9_Initialized" Height="32" DropDownClosed="get9"/>
 
-            <TextBox x:Name="money1" HorizontalAlignment="Left" Height="33" Margin="616,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money2" HorizontalAlignment="Left" Height="34" Margin="616,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money3" HorizontalAlignment="Left" Height="32" Margin="616,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money4" HorizontalAlignment="Left" Height="33" Margin="616,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money5" HorizontalAlignment="Left" Height="33" Margin="616,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money6" HorizontalAlignment="Left" Height="33" Margin="616,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money7" HorizontalAlignment="Left" Height="35" Margin="616,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money8" HorizontalAlignment="Left" Height="32" Margin="616,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="money9" HorizontalAlignment="Left" Height="32" Margin="616,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
-            <TextBox x:Name="zongji" HorizontalAlignment="Left" Height="32" Margin="630,335,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" GotFocus="Addmoney"/>
-            <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="616,338,0,0" TextWrapping="Wrap" Text="￥" VerticalAlignment="Top" Width="14" Height="17" FontSize="14"/>
-            <TextBox x:Name="daxie" HorizontalAlignment="Left" Height="33" Margin="134,367,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="702" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" GotFocus="Daxiemoney"/>
+            <TextBox x:Name="money1" HorizontalAlignment="Left" Height="30" Margin="510,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money2" HorizontalAlignment="Left" Height="31" Margin="510,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money3" HorizontalAlignment="Left" Height="32" Margin="510,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money4" HorizontalAlignment="Left" Height="30" Margin="510,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money5" HorizontalAlignment="Left" Height="31" Margin="510,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money6" HorizontalAlignment="Left" Height="31" Margin="510,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money7" HorizontalAlignment="Left" Height="32" Margin="510,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money8" HorizontalAlignment="Left" Height="30" Margin="510,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="money9" HorizontalAlignment="Left" Height="32" Margin="510,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="276" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+            <TextBox x:Name="zongji" HorizontalAlignment="Left" Height="32" Margin="527,310,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="259" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" GotFocus="Addmoney"/>
+            <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="515,313,0,0" TextWrapping="Wrap" Text="￥" VerticalAlignment="Top" Width="14" Height="17" FontSize="14"/>
+            <TextBox x:Name="daxie" HorizontalAlignment="Left" Height="30" Margin="186,342,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="600" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" GotFocus="Daxiemoney"/>
 
 
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="400" Margin="86,136,0,0" VerticalAlignment="Top" Width="836">
+        <Grid HorizontalAlignment="Left" Height="372" Margin="86,136,0,0" VerticalAlignment="Top" Width="786">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="130*"/>
-                <ColumnDefinition Width="70*"/>
-                <ColumnDefinition Width="195*"/>
-                <ColumnDefinition Width="150*"/>
-                <ColumnDefinition Width="194*"/>
+                <ColumnDefinition Width="113*"/>
+                <ColumnDefinition Width="69*"/>
+                <ColumnDefinition Width="186*"/>
+                <ColumnDefinition Width="140*"/>
+                <ColumnDefinition Width="278*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
-                <RowDefinition Height="33.3*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="31*"/>
 
             </Grid.RowDefinitions>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="400" Grid.RowSpan="12" VerticalAlignment="Top" Width="836" Grid.ColumnSpan="5"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="147" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="302" Grid.ColumnSpan="4" Margin="146,0,0,0" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="170" Grid.Column="3" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="220" Grid.Column="3" Grid.ColumnSpan="2" Margin="169,0,0,0" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="335" Grid.RowSpan="10" VerticalAlignment="Top" Width="448" Grid.ColumnSpan="4" Grid.Row="1"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="133" Grid.Row="10" Margin="0,32,0,0" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="704" Grid.ColumnSpan="5" Margin="132,32,0,0" Grid.Row="10" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="372" Grid.RowSpan="12" VerticalAlignment="Top" Width="788" Grid.ColumnSpan="5" Margin="-4,0,0,0"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="117" Grid.RowSpan="2" Margin="-4,0,0,0"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="257" Grid.ColumnSpan="4" Margin="112,0,0,0" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,0,0,0" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="311" Grid.RowSpan="11" VerticalAlignment="Top" Width="373" Grid.ColumnSpan="4" Grid.Row="1" Margin="-4,0,0,0"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="186" Grid.Row="11" Margin="-4,0,0,0" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="603" Grid.ColumnSpan="4" Margin="68,0,0,0" Grid.Row="11" Grid.Column="1"/>
 
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,33,0,0" Grid.RowSpan="3"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,32.667,0,0" Grid.Row="1" Grid.RowSpan="3"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,1,0,0" Grid.Row="3"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="170" Grid.Column="3" Grid.Row="3" Margin="0,32.667,0,0" Grid.RowSpan="3"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="170" Grid.Column="3" Grid.Row="4" Margin="0,33,0,0" Grid.RowSpan="3"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,33,0,0" Grid.Row="5" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,33,0,0" Grid.Row="6" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,33,0,0" Grid.Row="7" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,32,0,0" Grid.Row="8" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="170" Grid.Column="3" Margin="0,31,0,0" Grid.Row="9" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="140" Grid.Column="3" Grid.Row="1"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Width="140" Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Margin="0,30,0,0"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Margin="0,30,0,0" Grid.Row="2" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Grid.Row="3" Margin="0,30,0,0" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Grid.Row="4" Margin="0,30,0,0" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Margin="0,30,0,0" Grid.Row="5" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Margin="0,30,0,0" Grid.Row="6" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Margin="0,30,0,0" Grid.Row="7" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="140" Grid.Column="3" Margin="0,30,0,0" Grid.Row="8" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="140" Grid.Column="3" Grid.Row="9" Grid.RowSpan="3" Margin="0,30,0,0"/>
 
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,0,0,0" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="220" Grid.Column="3" Grid.RowSpan="2" Grid.Row="2" Grid.ColumnSpan="2" Margin="169,0,0,0"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,1,0,0" Grid.ColumnSpan="2" Grid.Row="3"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,33,0,0" Grid.ColumnSpan="2" Grid.Row="3" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,33,0,0" Grid.ColumnSpan="2" Grid.Row="4" Grid.RowSpan="3"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,0,0,0" Grid.Row="6" Grid.ColumnSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,33,0,0" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,33,0,0" Grid.Row="7" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,32,0,0" Grid.Row="8" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="220" Grid.Column="3" Margin="169,31,0,0" Grid.Row="9" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,0,0,0" Grid.Row="1" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Grid.RowSpan="2" Grid.Row="1" Margin="139,30,0,0" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="3" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="5" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="7" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="8" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="277" Grid.Column="3" Margin="139,30,0,0" Grid.Row="9" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
 
-            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="25,5,0,0" TextWrapping="Wrap" Text="摘              要"  FontSize="15" VerticalAlignment="Top" Width="110" Height="24"/>
+            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="14,4,0,0" TextWrapping="Wrap" Text="摘          要"  FontSize="15" VerticalAlignment="Top" Width="97" Height="24"/>
             <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="15,14,0,0" Grid.Row="1" Grid.RowSpan="2" TextWrapping="Wrap" Text="上款已如数交存" FontSize="18" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="242" Height="47"/>
-            <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="15,21.458,0,0" Grid.Row="9" TextWrapping="Wrap" Text="现金收讫章及管库员章" FontSize="18" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="242" Grid.RowSpan="3"/>
-            <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="13,5,0,0" Grid.Row="11" TextWrapping="Wrap" Text="人民币（大写）" FontSize="15" VerticalAlignment="Top" Width="121"/>
-            <TextBlock x:Name="textBlock6" Grid.Column="3" HorizontalAlignment="Left" Margin="55,6,0,0" Grid.Row="10" TextWrapping="Wrap" FontSize="15" Text="合     计" VerticalAlignment="Top" Width="84"/>
-            <TextBlock x:Name="textBlock7" Grid.Column="3" HorizontalAlignment="Left" Margin="52,7,0,0" TextWrapping="Wrap" FontSize="15" Text="券        别" VerticalAlignment="Top" Width="90"/>
-            <TextBlock x:Name="textBlock8" Grid.Column="4" HorizontalAlignment="Left" Margin="72,7,0,0" TextWrapping="Wrap" FontSize="15" Text="金           额" VerticalAlignment="Top" Width="90"/>
+            <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="15,28,0,0" Grid.Row="9" TextWrapping="Wrap" Text="现金收讫章及管库员章" FontSize="18" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="242" Grid.RowSpan="2" Height="24"/>
+            <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="33,5,0,0" Grid.Row="11" TextWrapping="Wrap" Text="人民币（大写）" FontSize="15" VerticalAlignment="Top" Width="121" Grid.ColumnSpan="2" Height="20"/>
+            <TextBlock x:Name="textBlock6" Grid.Column="3" HorizontalAlignment="Left" Margin="37,6,0,0" Grid.Row="10" TextWrapping="Wrap" FontSize="15" Text="合     计" VerticalAlignment="Top" Width="84" Height="20"/>
+            <TextBlock x:Name="textBlock7" Grid.Column="3" HorizontalAlignment="Left" Margin="33,6,0,0" TextWrapping="Wrap" FontSize="15" Text="券        别" VerticalAlignment="Top" Width="90" Height="20"/>
+            <TextBlock x:Name="textBlock8" Grid.Column="4" HorizontalAlignment="Left" Margin="102,6,0,0" TextWrapping="Wrap" FontSize="15" Text="金           额" VerticalAlignment="Top" Width="90" Height="20"/>
         </Grid>
         <Grid>
-            <TextBlock x:Name="textBlock10" FontSize="18" HorizontalAlignment="Left" Margin="111,109,0,0" TextWrapping="Wrap" Text="交款单位：（公章)" VerticalAlignment="Top" Width="206" Height="20"/>
-            <TextBlock x:Name="textBlock11" FontSize="18" HorizontalAlignment="Left" Margin="507,109,0,0" TextWrapping="Wrap" Text="年         月         日" VerticalAlignment="Top" Width="145"/>
-            <TextBlock x:Name="textBlock12"  FontSize="18" HorizontalAlignment="Left" Margin="802,110,0,0" TextWrapping="Wrap" Text="单位：元" VerticalAlignment="Top" Width="107"/>
-            <TextBlock x:Name="textBlock13" FontSize="25" HorizontalAlignment="Left" Margin="427,38,0,0" TextWrapping="Wrap" Text="中国人民银行现金交款单" VerticalAlignment="Top" Width="351" FontWeight="Bold"/>
-            <TextBlock x:Name="textBlock14"  FontSize="18" HorizontalAlignment="Left" Margin="928,280,0,0" TextWrapping="Wrap" Text="第一联：回执" VerticalAlignment="Top" Width="21" Foreground="Black" Height="194"/>
-            <TextBlock x:Name="textBlock15"  FontSize="18" HorizontalAlignment="Left" Margin="100,540,0,0" TextWrapping="Wrap" Text="业务主管：" VerticalAlignment="Top" Width="106"/>
-            <TextBlock x:Name="textBlock16"  FontSize="18" HorizontalAlignment="Left" Margin="427,540,0,0" TextWrapping="Wrap" Text="复核：" VerticalAlignment="Top" Width="81"/>
-            <TextBlock x:Name="textBlock17"  FontSize="18" HorizontalAlignment="Left" Margin="722,539,0,0" TextWrapping="Wrap" Text="制单:" VerticalAlignment="Top" Width="79"/>
+            <TextBlock x:Name="textBlock10" FontSize="18" HorizontalAlignment="Left" Margin="83,109,0,0" TextWrapping="Wrap" Text="交款单位：（公章)" VerticalAlignment="Top" Width="206" Height="20"/>
+            <TextBlock x:Name="textBlock11" FontSize="18" HorizontalAlignment="Left" Margin="415,109,0,0" TextWrapping="Wrap" Text="年         月         日" VerticalAlignment="Top" Width="145"/>
+            <TextBlock x:Name="textBlock12"  FontSize="18" HorizontalAlignment="Left" Margin="781,110,0,0" TextWrapping="Wrap" Text="单位：元" VerticalAlignment="Top" Width="107"/>
+            <TextBlock x:Name="textBlock13" FontSize="25" HorizontalAlignment="Left" Margin="331,40,0,0" TextWrapping="Wrap" Text="中国人民银行现金交款单" VerticalAlignment="Top" Width="351" FontWeight="Bold"/>
+            <TextBlock x:Name="textBlock14"  FontSize="18" HorizontalAlignment="Left" Margin="874,272,0,0" TextWrapping="Wrap" Text="第一联：回执" VerticalAlignment="Top" Width="21" Foreground="Black" Height="194"/>
+            <TextBlock x:Name="textBlock15"  FontSize="18" HorizontalAlignment="Left" Margin="98,516,0,0" TextWrapping="Wrap" Text="业务主管：" VerticalAlignment="Top" Width="106"/>
+            <TextBlock x:Name="textBlock16"  FontSize="18" HorizontalAlignment="Left" Margin="394,517,0,0" TextWrapping="Wrap" Text="复核：" VerticalAlignment="Top" Width="81"/>
+            <TextBlock x:Name="textBlock17"  FontSize="18" HorizontalAlignment="Left" Margin="606,516,0,0" TextWrapping="Wrap" Text="制单:" VerticalAlignment="Top" Width="79"/>
 
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="52,630,0,0" TextWrapping="Wrap" Text="摘要：" FontSize="16" VerticalAlignment="Top"/>
             <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="100,630,0,0" TextWrapping="Wrap" Text=""  VerticalAlignment="Top" Width="195"/>

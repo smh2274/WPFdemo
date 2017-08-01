@@ -527,7 +527,12 @@ namespace 款单打印
         //大写转换
         private void Daxiemoney(object sender, RoutedEventArgs e)
         {
-           // this.daxie.Text = new MoneyConvertChinese().MoneyToChinese(this.zongji.Text);
+            if (this.zongji.Text.Trim().Equals(""))
+            {
+                this.daxie.Text = "";
+                return;
+            }
+            // this.daxie.Text = new MoneyConvertChinese().MoneyToChinese(this.zongji.Text);
            StringBuilder str= new StringBuilder(new MoneyConvertChinese().MoneyToChinese(this.zongji.Text)); 
            str.Replace("零元", "元");
             this.daxie.Text = str.ToString();
