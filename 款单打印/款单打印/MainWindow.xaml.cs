@@ -49,6 +49,16 @@ namespace 款单打印
             {
                 print.PrintVisual(GridSummary, "款单打印");
             }
+            this.comboBox.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox1.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox2.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox3.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox4.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox5.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox6.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox7.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox8.Visibility = System.Windows.Visibility.Visible;
+            this.comboBox9.Visibility = System.Windows.Visibility.Visible;
         }
         //
         private void getSummary(object sender, EventArgs e)
@@ -385,7 +395,7 @@ namespace 款单打印
         {
             OleDbConnection conn = getConnect();
             conn.Open();
-            String sql = "delete from [table] where ZHAIYAO=" + "'" + this.textBox.Text + "'";
+            String sql = "delete from [table] where ZHAIYAO = " + "'" + this.textBox.Text + "'";
             OleDbCommand comm = new OleDbCommand(sql, conn);
             comm.ExecuteNonQuery();
             conn.Close();
