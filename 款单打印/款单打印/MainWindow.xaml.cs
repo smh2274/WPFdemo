@@ -66,6 +66,9 @@ namespace 款单打印
             {
                 //textBox2.Font= new Font(textBox2.Font.FontFamily, 12, textBox2.Font.Style);
                 this.textBox2.FontSize = 14;
+            }else if (this.textBox2.Text.Length==17)
+            {
+                this.textBox2.FontSize = 13;
             }
             else
             {

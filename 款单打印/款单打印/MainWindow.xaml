@@ -10,7 +10,7 @@
         <TextBlock x:Name="textBlock11" FontSize="18" HorizontalAlignment="Left" Margin="391,84,0,0" TextWrapping="Wrap" Text="年       月         日" VerticalAlignment="Top" Width="224"/>
 
         <Grid Name="GridSummary" HorizontalAlignment="Left" Height="354" Margin="63,112,0,0" VerticalAlignment="Top" Width="786">
-            <TextBox x:Name="textBox2" FontFamily="宋体" HorizontalAlignment="Left" Height="33" Margin="124,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="12" TextChanged="changeSize"/>
+            <TextBox x:Name="textBox2" FontFamily="宋体" HorizontalAlignment="Left" Height="33" Margin="123,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="235" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="12" TextChanged="changeSize"/>
             <ComboBox  Name="comboBox" HorizontalAlignment="Left" Margin="348,0,0,0" VerticalAlignment="Top" Width="15" Height="32" BorderBrush="{x:Null}" Background="White" Initialized="comboBox_Initialized" DropDownClosed="getSummary"/>
 
             <TextBox x:Name="textmoney1" FontSize="14" HorizontalAlignment="Left" Height="29" Margin="363,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="128" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>

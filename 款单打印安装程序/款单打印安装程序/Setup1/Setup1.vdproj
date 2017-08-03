@@ -21,7 +21,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A333540756354D948AEE895ED770F05B"
+        "MsmKey" = "8:_3C8366180F44440689F6795FD19F9C41"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A333540756354D948AEE895ED770F05B"
+        "OwnerKey" = "8:_3C8366180F44440689F6795FD19F9C41"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -152,14 +152,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A333540756354D948AEE895ED770F05B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3C8366180F44440689F6795FD19F9C41"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:款单打印, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A333540756354D948AEE895ED770F05B"
+                    "_3C8366180F44440689F6795FD19F9C41"
                     {
                     "Name" = "8:款单打印.exe"
                     "Attributes" = "3:512"
@@ -380,7 +380,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_63DF750FCF474EF2A27FB38CC107AD3A"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_154FBE5460FB48FFA253FF076BB86735"
             {
             "Name" = "8:交款单打印.exe"
             "Arguments" = "8:"
@@ -388,13 +388,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A333540756354D948AEE895ED770F05B"
-            "Folder" = "8:_352969086D4B4DA5A00B308BF293C7FC"
+            "Target" = "8:_3C8366180F44440689F6795FD19F9C41"
+            "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_92E1AFFF764045E1AA9BD1C62107D3BD"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_40F08177231D4EB4AD025E210B52EC40"
             {
             "Name" = "8:交款单打印.exe"
             "Arguments" = "8:"
@@ -402,8 +402,8 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A333540756354D948AEE895ED770F05B"
-            "Folder" = "8:_C72ED649290E415A9C1E59B60768B146"
+            "Target" = "8:_3C8366180F44440689F6795FD19F9C41"
+            "Folder" = "8:_352969086D4B4DA5A00B308BF293C7FC"
             "WorkingFolder" = "8:_C72ED649290E415A9C1E59B60768B146"
             "Icon" = "8:_D65F8FC781DF4DDE963819F5DF6679FD"
             "Feature" = "8:"
