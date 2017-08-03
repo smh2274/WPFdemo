@@ -60,6 +60,18 @@ namespace 款单打印
             this.comboBox8.Visibility = System.Windows.Visibility.Visible;
             this.comboBox9.Visibility = System.Windows.Visibility.Visible;
         }
+        private void changeSize(object sender,EventArgs e)
+        {
+            if (this.textBox2.Text.Length < 17)
+            {
+                //textBox2.Font= new Font(textBox2.Font.FontFamily, 12, textBox2.Font.Style);
+                this.textBox2.FontSize = 14;
+            }
+            else
+            {
+                this.textBox2.FontSize = 12;
+            }
+        }
         //
         private void getSummary(object sender, EventArgs e)
         {
@@ -736,4 +748,6 @@ namespace 款单打印
             }
         }
     }
+
+ 
 }
