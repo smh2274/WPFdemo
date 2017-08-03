@@ -4,9 +4,9 @@
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
 "ProjectName" = "8:款单打印安装"
-"LanguageId" = "3:1033"
-"CodePage" = "3:1252"
-"UILanguageId" = "3:1033"
+"LanguageId" = "3:2052"
+"CodePage" = "3:936"
+"UILanguageId" = "3:2052"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -233,7 +233,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_C72ED649290E415A9C1E59B60768B146"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:C:\\[Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -252,15 +252,15 @@
         }
         "MsiBootstrapper"
         {
-        "LangId" = "3:1033"
+        "LangId" = "3:2052"
         "RequiresElevation" = "11:FALSE"
         }
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup1"
+        "ProductName" = "8:BOPRC PRINT"
         "ProductCode" = "8:{789D9B31-2AE9-4058-B53E-E42C81194318}"
-        "PackageCode" = "8:{333ED7C3-33F5-4B9D-97AB-9C4620F40375}"
+        "PackageCode" = "8:{BB4BC743-BB14-4C3E-A7F4-EA2B69199582}"
         "UpgradeCode" = "8:{6F4C7993-A4C5-456B-BC61-3658719D40F8}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -268,12 +268,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:中国人民银行开票软件"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Setup1"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:中国人民银行开票软件"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -382,7 +382,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_63DF750FCF474EF2A27FB38CC107AD3A"
             {
-            "Name" = "8:Print.exe"
+            "Name" = "8:交款单打印.exe"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -396,7 +396,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_92E1AFFF764045E1AA9BD1C62107D3BD"
             {
-            "Name" = "8:Print.exe"
+            "Name" = "8:交款单打印.exe"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"

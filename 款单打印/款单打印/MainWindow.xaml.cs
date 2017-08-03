@@ -384,6 +384,7 @@ namespace 款单打印
             String sql = "insert into [table]([ZHAIYAO]) values(" + "'" + this.textBox.Text + "'" + ")";
             OleDbCommand comm = new OleDbCommand(sql, conn);
             comm.ExecuteNonQuery();
+          
             conn.Close();
             this.textBox.Text = null;
             this.comboBox.Items.Clear();
